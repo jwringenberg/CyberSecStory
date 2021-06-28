@@ -1,6 +1,7 @@
 var score = 0;
 var part = 0;
 var ans = 4;
+var flip = false;
 var messages = [
 "The mermaids wanted to communicate with the dophins.",
 "Who lived on the other side of the ocean.",
@@ -102,6 +103,14 @@ function show()
 }
 function LoadQuiz()
 {
+ if(flip == false)
+ {
   document.getElementById('buttons').innerHTML =
   "<center><input type = 'button' class= 'button' value = 'Abstraction' onclick = 'Question(1)'><br><input type = 'button' class= 'button' value = 'Authorization' onclick = 'Question(2)'><br><input type = 'button' class= 'button' value = 'Authentication' onclick = 'Question(3)'><br><input type = 'button' class= 'button' value = 'Identification' onclick = 'Question(4)'></center></div>";
+   flip = true;
+ }
+ if(flip)
+ {
+  show();
+ }
 }
