@@ -83,13 +83,13 @@ function Question(x)
   {
     document.getElementById('story').innerHTML = "Yes! You are Correct!";
     score++;
+    ans = ans -1;
     hide();
     document.getElementById('moveOn').innerHTML = "<input type = 'button' class= 'button' value = 'FORWARD' onclick = 'Story()'>";
   }
   else {
       document.getElementById('story').innerHTML = "No! ";
   }
-    ans = ans -1;
 }
 
 function hide()
