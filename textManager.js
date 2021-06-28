@@ -22,7 +22,8 @@ var messages = [
 "However, The King was also suspicious!",
 "How do I know this message is valid and authentic!",
 "But, the princess was smart and nabbed a duck from the surface before she left.",
-"Yes! Since the duck hasn't drowned and you would need opposable thumbs to bring the duck to me,...<br><br> I know this is recent and from the mermaids!"
+"Yes! Since the duck hasn't drowned and you would need opposable thumbs to bring the duck to me,...<br><br> I know this is recent and from the mermaids!",
+ "Yes! Since the duck hasn't drowned and you would need opposable thumbs to bring the duck to me,...<br><br> I know this is recent and from the mermaids!"
 ];
 
 var slides = [
@@ -46,6 +47,7 @@ var slides = [
    "<img src = 'pics/10_King.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>"
 ];
 
 function Story(){
@@ -56,11 +58,11 @@ function Story(){
   {
     LoadQuiz();
   }
-  else if(part == 10)
+  else if(part == 11)
   {
     LoadQuiz();
   }
-  else if(part == 14)
+  else if(part == 15)
   {
     LoadQuiz();
   }
