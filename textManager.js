@@ -12,14 +12,15 @@ var messages = [
 "How do I know you are who you say you are!",
  "The Guard making this demand is an example of which access control principle?",
 "This would stop most mermaids, but this mermaid was smart!<br><br> She brought the Princess!",
+ "The mermaid bringing the princess is an example of which access control principle?",
 "The dolphin guard recognized the princess,<br><br> Which convinced the guard of their identity.",
  "It would be difficult to find a princess look-alike, <br><br> or, fake that crown!",
 "So they were granted an audience with the King Dolphin.",
+ "Being granted an audience with the king is an axample of which access control principle?",
 "The Dolphin King then dismissed the guard to hear the message.",
 "However, The King was also suspicious!",
-"How do I know this message is still valid and authentic!",
+"How do I know this message is valid and authentic!",
 "But, the princess was smart and nabbed a duck from the surface before she left.",
-"Yes! Since the duck hasn't drowned and you would need opposable thumbs to bring the duck to me,...<br><br> I know this is recent and from the mermaids!",
 "Yes! Since the duck hasn't drowned and you would need opposable thumbs to bring the duck to me,...<br><br> I know this is recent and from the mermaids!"
 ];
 
@@ -35,28 +36,30 @@ var slides = [
    "<img src = 'pics/07_Guard.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
+ "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/09_Entry.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/09_Entry.png' width = '80%' height='80%'onclick  = 'Story()'>",
+   "<img src = 'pics/09_Entry.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/09_GuardGoes.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/10_King.png' width = '80%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/09_GuardGoes.png' width = '80%' height='80%'onclick  = 'Story()'>",
+   "<img src = 'pics/10_King.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>"
 ];
 
 function Story(){
   document.getElementById('story').innerHTML = messages[part];
   document.getElementById('pictures').innerHTML = slides[part];
   part = part + 1;
-  if(part == 10)
+  if(part == 8)
   {
     LoadQuiz();
   }
-  else if(part == 8)
+  else if(part == 10)
   {
     LoadQuiz();
   }
-  else if(part == 15)
+  else if(part == 14)
   {
     LoadQuiz();
   }
