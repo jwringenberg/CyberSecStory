@@ -7,15 +7,14 @@ var messages = [
 "With the dangerous sharks in-between!",
 "The mermaids could not simply yell thier message, <br><br> The sharks would hear!",
 "So, a brave mermaid was entrusted with delivering the message across the ocean.",
-"So, a brave mermaid was entrusted with delivering the message across the ocean.",
 "But, once she arrived, she was faced with a wall and a guard.",
 "The dolphin guard was suspicious.<br><br> Maybe this was a shark in disguise?",
-"The the dolphin guard was suspicious.<br><br> Maybe this was a shark in disguise?",
-"Provide Some Sort Of Authentication!",
+"How do I know you are who you say you are!",
+ "The Guard making this demand is an example of which access control principle?",
 "This would stop most mermaids, but this mermaid was smart!<br><br> She brought the Princess!",
-"The dolphin guard recognized the princess.",
-"And they were granted an audience with the King Dolphin.",
-"The Dolphin King then dismissed the guard to hear the message.",
+"The dolphin guard recognized the princess,<br><br> Which convinced the guard of their identity.",
+ "It would be difficult to find a princess look-alike, <br><br> or, fake that crown!",
+"So they were granted an audience with the King Dolphin.",
 "The Dolphin King then dismissed the guard to hear the message.",
 "However, The King was also suspicious!",
 "How do I know this message is still valid and authentic!",
@@ -30,16 +29,14 @@ var slides = [
   "<img src = 'pics/05_MerDolphShark.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/05_Communication.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/06_MerVoyage.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/06_MerVoyage.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/07_Arrival.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/07_Arrival.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/07_Arrival.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/07_Guard.png' width = '80%' height='80%'onclick  = 'Story()'>",
+   "<img src = 'pics/07_Guard.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/09_Entry.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/09_Entry.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/09_GuardGoes.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/09_GuardGoes.png' width = '80%' height='80%'onclick  = 'Story()'>",
   "<img src = 'pics/10_King.png' width = '80%' height='80%' onclick  = 'Story()'>",
   "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>",
@@ -51,7 +48,7 @@ function Story(){
   document.getElementById('story').innerHTML = messages[part];
   document.getElementById('pictures').innerHTML = slides[part];
   part = part + 1;
-  if(part == 6)
+  if(part == 10)
   {
     LoadQuiz();
   }
@@ -102,6 +99,6 @@ function show()
 }
 function LoadQuiz()
 {
-  document.getElementById('text').innerHTML =
-  "<center><br><p id = 'story'>Which first principle is this an example of:</p><p id = 'moveOn'></p><div id = 'buttons'><input type = 'button' class= 'button' value = 'Abstraction' onclick = 'Question(1)'><br><input type = 'button' class= 'button' value = 'Least Privilege' onclick = 'Question(2)'><br><input type = 'button' class= 'button' value = 'Domain Separation' onclick = 'Question(3)'><br><input type = 'button' class= 'button' value = 'Data Hiding' onclick = 'Question(4)'></center></div>";
+  document.getElementById('buttons').innerHTML =
+  "<center><input type = 'button' class= 'button' value = 'Abstraction' onclick = 'Question(1)'><br><input type = 'button' class= 'button' value = 'Authorization' onclick = 'Question(2)'><br><input type = 'button' class= 'button' value = 'Authentication' onclick = 'Question(3)'><br><input type = 'button' class= 'button' value = 'Identification' onclick = 'Question(4)'></center></div>";
 }
