@@ -52,7 +52,7 @@ function Story(){
   document.getElementById('story').innerHTML = messages[part];
   document.getElementById('pictures').innerHTML = slides[part];
   part = part + 1;
-  if(part == 8)
+  if(part == 9)
   {
     LoadQuiz();
   }
