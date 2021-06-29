@@ -105,6 +105,7 @@ function show()
 }
 function LoadQuiz()
 {
+ document.getElementById("forward").style.visibility = 'hidden';
  if(flip == false)
  {
   document.getElementById('buttons').innerHTML =
