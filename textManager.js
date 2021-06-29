@@ -27,27 +27,27 @@ var messages = [
 ];
 
 var slides = [
-  "<img src = 'pics/03_Mermaids.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/04_MerDolphin.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/05_MerDolphShark.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/05_Communication.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/06_MerVoyage.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/07_Arrival.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/07_Arrival.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/07_Guard.png' width = '80%' height='80%'onclick  = 'Story()'>",
-   "<img src = 'pics/07_Guard.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
- "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/08_Auth.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/09_Entry.png' width = '80%' height='80%' onclick  = 'Story()'>",
-   "<img src = 'pics/09_Entry.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/09_GuardGoes.png' width = '80%' height='80%'onclick  = 'Story()'>",
-  "<img src = 'pics/09_GuardGoes.png' width = '80%' height='80%'onclick  = 'Story()'>",
-   "<img src = 'pics/10_King.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>",
-  "<img src = 'pics/10_Integrity.png' width = '80%' height='80%' onclick  = 'Story()'>"
+  "<img src = 'pics/03_Mermaids.png' width = '90%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/04_MerDolphin.png' width = '90%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/05_MerDolphShark.png' width = '90%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/05_Communication.png' width = '90%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/06_MerVoyage.png' width = '90%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/07_Arrival.png' width = '90%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/07_Arrival.png' width = '90%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/07_Guard.png' width = '90%' height='80%'onclick  = 'Story()'>",
+   "<img src = 'pics/07_Guard.png' width = '90%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/08_Auth.png' width = '90%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/08_Auth.png' width = '90%' height='80%'onclick  = 'Story()'>",
+ "<img src = 'pics/08_Auth.png' width = '90%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/08_Auth.png' width = '90%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/09_Entry.png' width = '90%' height='80%' onclick  = 'Story()'>",
+   "<img src = 'pics/09_Entry.png' width = '90%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/09_GuardGoes.png' width = '90%' height='80%'onclick  = 'Story()'>",
+  "<img src = 'pics/09_GuardGoes.png' width = '90%' height='80%'onclick  = 'Story()'>",
+   "<img src = 'pics/10_King.png' width = '90%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/10_Integrity.png' width = '90%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/10_Integrity.png' width = '90%' height='80%' onclick  = 'Story()'>",
+  "<img src = 'pics/10_Integrity.png' width = '90%' height='80%' onclick  = 'Story()'>"
 ];
 
 function Story(){
