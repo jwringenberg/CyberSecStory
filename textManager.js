@@ -88,7 +88,7 @@ function Question(x)
     score++;
     ans = ans -1;
     hide();
-    document.getElementById('moveOn').innerHTML = "<input type = 'button' class= 'button' value = 'FORWARD' onclick = 'Story()'>";
+   document.getElementById("forward").style.visibility = 'visible';
   }
   else {
       document.getElementById('story').innerHTML = "No! ";
