@@ -21,8 +21,8 @@ var messages = [
 "The Dolphin King then dismissed the guard to hear the message.",
 "However, The King was also suspicious!",
 "How do I know this message is valid and authentic?",
-"But, the princess was smart and nabbed a duck from the surface before she left.",
-"Yes! Since the duck hasn't drowned and you would need opposable thumbs to bring the duck to me,...<br><br> I know this is recent and from the mermaids!",
+"But, the princess was smart and nabbed a taco from the surface before she left.",
+"Yes! Since the taco hasn't dissolved and you would need opposable thumbs to bring me this taco,...<br><br> I know this is recent and from the mermaids!",
  "Yes! Since the duck hasn't drowned and you would need opposable thumbs to bring the duck to me,...<br><br> I know this is recent and from the mermaids!"
 ];
 
